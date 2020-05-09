@@ -1,0 +1,18 @@
+=black-bg-icon($w,$h,$icon)
+  width: $w
+  height: $h
+  background: #25282a url('../assets/images/' +$icon+ '.png') 50 % 50 % no-repeat
+
+=max-md
+  @media screen and (max-width: 768px)
+    @content
+
+=big-phone
+  @media screen and (max-width: 520px)
+    @content
+
+=cfix
+  &::after
+    clear: both
+    content: ""
+    display: table

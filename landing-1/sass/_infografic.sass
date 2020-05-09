@@ -1,0 +1,76 @@
+.flex-container
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  flex-wrap: wrap
+.infografic
+  transform: translateY(-77px)
+.flex-items
+  width: $infografic-flex-items-width
+  height: auto
+  padding-top: 182px
+  padding-bottom: 36px
+  padding-left: 89px
+  padding-right: 90px
+  position: relative
+  @media screen and (max-width: 800px)
+    width: 100%
+.flex-item1
+  background: $infografic-flex-item1-bg
+  &::after
+    content: ""
+    position: absolute
+    top: 17.5%
+    left: 50%
+    background: url(../assets/images/chat-icon.png) no-repeat 50% 50% #fff
+    margin-left: -49px
+    border-radius: 50%
+    width: 100px
+    height: 100px
+.flex-item2
+  background: $infografic-flex-item2-bg
+  &::after
+    content: ""
+    position: absolute
+    top: 17.5%
+    left: 50%
+    margin-left: -49px
+    background: url(../assets/images/pencil-icon.png) no-repeat 50% 50% #fff
+    border-radius: 50%
+    width: 100px
+    height: 100px
+.flex-item3
+  background: $infografic-flex-item3-bg
+  &::after
+    content: ""
+    position: absolute
+    top: 17.4%
+    left: 50%
+    margin-left: -51px
+    background: url(../assets/images/crown-icon.png) no-repeat 50% 50% #fff
+    border-radius: 50%
+    width: 100px
+    height: 100px
+.flex-item4
+  background: $infografic-flex-item4-bg
+  &::after
+    content: ""
+    position: absolute
+    top: 17.4%
+    left: 50%
+    background: url(../assets/images/user-icon.png) no-repeat 50% 50% #fff
+    margin-left: -51px
+    border-radius: 50%
+    width: 100px
+    height: 100px
+.main__flex-box
+  width: 91%
+  margin: 0 auto
+  text-align: center
+  h4
+    font-size: $infografic-title-fz
+    text-transform: $big-word
+    margin-bottom: 5px
+  p
+    font-family: $ff-add
+    

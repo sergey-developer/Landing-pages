@@ -1,0 +1,91 @@
+.header__bg-black
+	background: url(../assets/images/bg-black.jpg)
+	overflow: hidden
+.header__bg-black__container
+	padding-top: 15px
+	padding-bottom: 10px
+	overflow: hidden
+.header__social-block
+	float: right
+	padding-right: 20px
+	a
+		text-decoration: none
+		color: $cwhite
+		padding-left: 15px
+.header__icon-tw
+	&::before
+		content: "\f099"
+		font-family: 'FontAwesome'
+		font-size: 19px
+.header__icon-fb
+	&::before
+		content: "\f09a"
+		font-family: 'FontAwesome'
+		font-size: 19px
+.header__icon-dribble
+	&::before
+		content: "\f17d"
+		font-family: 'FontAwesome'
+		font-size: 19px
+.header__icon-rss
+	&::before
+		content: "\f09e"
+		font-family: 'FontAwesome'
+		font-size: 19px
+.header__nav-block__container
+	padding-top: 8px
+	padding-bottom: 3px
+	+cfix
+.header__nav-block
+	background: url(../assets/images/bg-white.jpg)
+.header__logo
+	display: inline-block
+	+big-phone
+		margin-left: 50px
+.header__nav
+	display: inline-block
+	float: right
+	padding-right: 49px
+.header__list
+	display: inline-block
+	+big-phone
+		display: none
+		background: url(../assets/images/bg-white.jpg)
+		padding: 10px
+		border-radius: 10px
+.header__list-elem
+	display: inline-block
+	padding-left: 19px
+	+big-phone
+		line-height: 20px
+		padding-left: 0
+.header__link
+	text-decoration: none
+	text-transform: $bword
+	color: $cblack
+.header__link:hover
+	color: #ea5a4b
+.bars-menu
+	display: none
+	+big-phone
+		display: block
+		float: right
+		margin-right: 50px
+		padding-top: 5px
+		font-size: 25px
+.header__nav
+	&:hover
+		cursor: pointer
+	&:hover .header__list
+		display: block
+	+big-phone
+		padding: 0
+		margin: 0
+		position: relative
+.header__list
+	+big-phone
+		position: absolute
+		top: 17px
+		right: 20px
+		padding-top: 30px
+		text-align: center

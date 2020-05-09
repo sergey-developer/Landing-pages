@@ -1,0 +1,71 @@
+.footer
+	background: url(../assets/images/bg-black.jpg)
+.footer__container
+	padding-top: 67px
+	padding-bottom: 62px
+	min-width: 320px
+	max-width: 953px
+	margin: 0 auto
+.footer__box
+	padding-top: 16px
+.footer__flex-container
+	display: flex
+	flex-direction: row
+	align-items: middle
+	justify-content: space-between
+	flex-wrap: wrap
+.footer__flex-item
+	width: 33%
+	+max-md
+		width: 60%
+		margin: 0 auto
+		text-align: center
+.footer__title
+	font-size: 14px
+	color: $cwhite
+	text-transform: $bword
+.footer__flex-item1
+	+max-md
+	margin-bottom: 50px
+.footer__flex-item2
+	+max-md
+	margin-bottom: 50px
+.footer__flex-item3
+	.footer__title
+		margin-bottom: 4px
+.footer__caption
+	color: #adadad
+	font-family: $ff-add
+	font-weight: 700
+.footer__resent-box p:nth-child(2)
+	padding-top: 14px
+.footer__resent-box p:nth-child(3)
+	padding-top: 15px
+.footer__resent-box p:last-child
+	border-bottom: none
+	padding-top: 16px
+.resent-box__caption
+	padding-bottom: 15px
+	border-bottom: 1px solid #3b3b3b
+.footer__about-box p:first-child
+	padding-bottom: 18px
+.footer__social-box
+	a
+		display: inline-block
+		width: 30px
+		height: 29px
+		border-radius: 4px
+		margin-right: 5px
+.footer__row-1
+	margin-bottom: 5px
+.footer__row-2
+	margin-bottom: 4px
+
+
+$x: 0
+@for $i from 1 through 20
+	@if ($i > 1)
+		$x: $x - 38px
+	.icon-#{$i}
+		background: url(../assets/images/sprite-icon.png) $x 50% no-repeat
+

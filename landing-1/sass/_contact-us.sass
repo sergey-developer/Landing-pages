@@ -1,0 +1,131 @@
+.contact-us
+	margin: 0 auto
+	margin-bottom: 91px
+	width: 570px
+	@media screen and (max-width: 590px)
+		width: auto
+.contact-us__form-block
+	text-align: center
+	button
+		width: 109px
+		height: 36px
+		text-transform: $big-word
+		background: #245963
+		border-top: 1px solid #387d89
+		border-left: 1px solid #387d89
+		border-right: 1px solid #387d89
+		border-bottom: transparent
+		position: relative
+		color: $color-white
+		display: block
+		margin: 0 auto
+		font-size: 15px
+		font-family: 'Fjalla One', sans-serif
+		&::before
+			content: ""
+			width: 45px
+			height: 1px
+			position: absolute
+			bottom: 0px
+			left: 0
+			background: #387d89
+		&::after
+			content: ""
+			width: 45px
+			height: 1px
+			position: absolute
+			bottom: 0px
+			right: 0
+			background: #387d89
+		span
+			&::before
+				content: ""
+				position: absolute
+				background: #245963
+				width: 14px
+				height: 14px
+				margin-left: -8px
+				bottom: -19%
+				left: 50%
+				transform: rotate(45deg)
+				border-right: 1px solid #387d89
+				border-bottom: 1px solid #387d89
+	.field-form-1
+		float: left
+		@media screen and (max-width: 590px)
+			margin-bottom: 20px
+	.field-form-2
+		float: right
+	.field-form
+		width: 47.3%
+		height: 45px
+		background: #245963
+		border: 1px solid #387d89
+		@media screen and (max-width: 590px)
+			float: none
+			width: 50%
+	textarea
+		width: 570px
+		height: 126px
+		background: #245963
+		border: 1px solid #387d89
+		display: block
+		margin: 0 auto
+		margin-bottom: 30px
+		@media screen and (max-width: 590px)
+			width: 70%
+.field-form-box
+	width: 100%
+	margin-bottom: 27px
+	display: inline-block
+	overflow: hidden
+.contact-us-txt
+	padding-top: 80px
+.email
+	width: 100px
+	height: 100px
+	border-radius: 50%
+	background: #fff
+	position: relative
+	margin: 0 auto
+	margin-bottom: 25px
+	&::before
+		content: ""
+		position: absolute
+		width: 57px
+		height: 57px
+		top: 20%
+		left: 50%
+		margin-left: -30px
+		background: url(../assets/images/mail-icon.png)
+.contact-us__title
+	font-size: 29px
+	text-transform: $big-word
+	text-align: center
+	margin-bottom: 10px
+.contant-us__caption
+	font-size: 21px
+	text-transform: $big-word
+	text-align: center
+	position: relative
+	margin-bottom: 34px
+	&::before
+		content: ""
+		position: absolute
+		top: 47%
+		left: 5%
+		height: 1px
+		width: 80px
+		background: #387d89
+		@media screen and (max-width: 540px)
+			display: none
+	&::after
+		content: ""
+		position: absolute
+		top: 47%
+		right: 7%
+		height: 1px
+		width: 70px
+		background: #387d89
+		@media screen and (max-width: 540px)
+			display: none

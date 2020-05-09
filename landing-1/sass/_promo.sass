@@ -1,0 +1,75 @@
+.img-block
+	background: url(../assets/images/main-image.jpg) 50% 50% no-repeat
+	height: 600px
+	width: 100%
+.image-center-txt
+	text-align: center
+	h1
+		font-size: 41px
+		text-transform: uppercase
+		letter-spacing: 5px
+		margin-bottom: 14px
+		@media screen and (max-width: 520px)
+			font-size: 30px
+	h2
+		font-size: 31px
+		text-transform: uppercase
+		letter-spacing: 5px
+		margin-bottom: 34px
+		@media screen and (max-width: 520px)
+			font-size: 20px
+	span
+		position: relative
+		&::before
+			content: ""
+			width: 61px
+			height: 2px
+			position: absolute
+			bottom: -12px
+			left: 0
+			background: $color-white
+		&::after
+			content: ""
+			width: 60px
+			height: 2px
+			position: absolute
+			bottom: -12px
+			right: 0
+			background: $color-white
+		a
+			text-decoration: none
+			font-size: 17px
+			text-transform: uppercase
+			padding: 11px 32px
+			border: 2px solid $color-white
+			border-bottom: none
+			position: relative
+			&::before
+				content: ""
+				position: absolute
+				width: 14px
+				height: 14px
+				margin-left: -8px
+				bottom: -21%
+				left: 50%
+				transform: rotate(45deg)
+				border-right: 2px solid $color-white
+				border-bottom: 2px solid $color-white
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

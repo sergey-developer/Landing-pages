@@ -1,0 +1,94 @@
+.comment-block__flex-items
+	width: 31.6%
+	height: auto
+	padding: 44px 30px 71px
+	text-align: center
+	background: #245963
+	@media screen and (max-width: 780px)
+		width: 100%
+	p
+		color: #72adb9
+		font-family: $ff-add
+		line-height: 25px
+		margin-bottom: 43px
+	span
+		a
+			text-decoration: none
+			font-size: 15px
+			padding: 8px 20px
+			position: relative
+			text-transform: $big-word
+.comment-block__img-box
+	margin-bottom: 27px
+.comment-block__flex-item1
+	border-top: 7px solid $comm-block-link-color-1
+.comment-block__flex-item2
+	border-top: 7px solid $comm-block-link-color-2
+.comment-block__flex-item3
+	border-top: 7px solid $comm-block-link-color-3
+.comment-block__face-one
+	border-radius: 50%
+.comment-block__face-two
+	border-radius: 50%
+.comment-block__face-three
+	border-radius: 50%
+.comment-block__link-1
+	background: $comm-block-link-color-1
+	&::before
+		content: ""
+		position: absolute
+		margin-left: -10px
+		bottom: -29%
+		left: 50%
+		+triagle-bott($comm-block-link-color-1,10px,22px)
+.comment-block__link-2
+	background: $comm-block-link-color-2
+	&::before
+		content: ""
+		position: absolute
+		margin-left: -10px
+		bottom: -29%
+		left: 50%
+		+triagle-bott($comm-block-link-color-2,10px,22px)
+.comment-block__link-3
+		background: $comm-block-link-color-3
+		&::before
+			content: ""
+			position: absolute
+			margin-left: -10px
+			bottom: -29%
+			left: 50%
+			+triagle-bott($comm-block-link-color-3,10px,22px)
+.title-box
+	text-align: center
+	margin-bottom: 64px
+.comment-block__title
+	font-size: 29px
+	text-transform: $big-word
+	margin-bottom: 8px
+.comment-block__description
+	font-size: 21px
+	text-transform: $big-word
+	position: relative
+	margin-bottom: 0
+	position: relative
+	&::before
+		content: ""
+		position: absolute
+		top: 49%
+		left: 21.2%
+		height: 1px
+		width: 116px
+		background: #387d89
+		@media screen and (max-width: 1130px)
+			display: none
+	&::after
+		content: ""
+		position: absolute
+		top: 50%
+		right: 21.2%
+		height: 1px
+		width: 116px
+		background: #387d89
+		@media screen and (max-width: 1130px)
+			display: none
